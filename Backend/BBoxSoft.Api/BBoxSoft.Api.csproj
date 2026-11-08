@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+		<PackageReference Include="Scalar.AspNetCore" Version="*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BBoxSoft.Application\BBoxSoft.Application.csproj" />
+		<ProjectReference Include="..\BBoxSoft.Infrastructure\BBoxSoft.Infrastructure.csproj" />
+		<ProjectReference Include="..\BBoxSoft.Shared\BBoxSoft.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Controllers\Environment\" />
+	</ItemGroup>
+
+</Project>

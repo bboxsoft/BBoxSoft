@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../../../../../../../../DevProjects/BBoxSoft/BBoxSoft.Api/BBoxSoft.Api.csproj" />
+  <Project Path="../../../../../../../../DevProjects/BBoxSoft/BBoxSoft.Application/BBoxSoft.Application.csproj" />
+  <Project Path="../../../../../../../../DevProjects/BBoxSoft/BBoxSoft.Domain/BBoxSoft.Domain.csproj" />
+  <Project Path="../../../../../../../../DevProjects/BBoxSoft/BBoxSoft.Infrastructure/BBoxSoft.Infrastructure.csproj" />
+  <Project Path="../../../../../../../../DevProjects/BBoxSoft/BBoxSoft.Shared/BBoxSoft.Shared.csproj" />
+</Solution>
